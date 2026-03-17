@@ -36,5 +36,5 @@ jobs:
       - name: Print cowsay banner from notes.txt
         run: |
           TEXT="$(cat notes.txt)"
-          cowsay "$TEXT"
+          cowsay -f squirrel "$TEXT"
           
