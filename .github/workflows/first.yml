@@ -12,3 +12,6 @@ jobs:
 
       - name: Print a message
         run: echo "🎉 My first pipeline is running!"
+
+      - name: Count characters
+        run: wc -c notes.txt
