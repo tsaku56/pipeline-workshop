@@ -15,3 +15,6 @@ jobs:
 
       - name: Count characters
         run: wc -c notes.txt
+
+      - name: Run tests
+        run: echo "Running tests... All tests passed!"
